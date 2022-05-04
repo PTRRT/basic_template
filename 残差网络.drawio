@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T03:29:16.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="AVfXnyZbP6TDtG4nqPhy" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T03:32:32.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BjSAyufw-zQDpLKJTFK3" version="17.5.0" type="github">
   <diagram id="j_6UDLi3RJ-b9BGbpyXK" name="第 1 页">
     <mxGraphModel dx="823" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,6 +64,9 @@
         <mxCell id="iRqlwemfsiqbd64B7ARf-16" value="Relu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="iRqlwemfsiqbd64B7ARf-17">
           <mxGeometry x="155" y="240" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="iRqlwemfsiqbd64B7ARf-71" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Relu&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="iRqlwemfsiqbd64B7ARf-17">
+          <mxGeometry x="145" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="iRqlwemfsiqbd64B7ARf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="1" source="iRqlwemfsiqbd64B7ARf-19" target="iRqlwemfsiqbd64B7ARf-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -118,7 +121,7 @@
             <mxPoint x="690" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iRqlwemfsiqbd64B7ARf-49" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontSize=15;exitX=0.47;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iRqlwemfsiqbd64B7ARf-47">
+        <mxCell id="iRqlwemfsiqbd64B7ARf-49" value="" style="endArrow=none;html=1;rounded=0;dashed=1;fontSize=15;exitX=0.47;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="iRqlwemfsiqbd64B7ARf-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="699.9299999999998" y="207.28000000000003" as="sourcePoint" />
             <mxPoint x="700" y="285" as="targetPoint" />
@@ -127,11 +130,20 @@
         <mxCell id="iRqlwemfsiqbd64B7ARf-50" value="[56, 56, 64]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iRqlwemfsiqbd64B7ARf-52" value="28, 28, 128" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="iRqlwemfsiqbd64B7ARf-52" value="[28, 28, 128]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="540" y="350" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iRqlwemfsiqbd64B7ARf-68" value="Relu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="540" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iRqlwemfsiqbd64B7ARf-69" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;残差结构实线&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iRqlwemfsiqbd64B7ARf-70" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;残差结构虚线&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iRqlwemfsiqbd64B7ARf-72" value="Relu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
